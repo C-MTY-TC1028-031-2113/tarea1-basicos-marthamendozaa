@@ -8,17 +8,11 @@ def main():
     print(float(oper2))
     oper3 = ((a**3) + (2*b**2)) / (4*a)
     print(float(oper3))
-    oper4 = ((2*((a+b)**2))+ (4*((a-b)**2)))/((a*b)**2)
+    oper4 = (((2 * ((a + b)** 2)) + (4 * ((a - b)** 2))) / ((a * b)** 2))
     print(float(oper4))
     oper5 = (sqrt((a+b)**2 + 2**(a+b)))/(2*a + 2*b)**2
     print(float(round(oper5,4)))
 
-#oper5 = √((a+b)2 + 2(a+b)) / (2a + 2b)2
-
-
-   
-
-
-
+#no se como hacer que la oper4 me de 1.66 :/
 if __name__ == '__main__':
     main()
